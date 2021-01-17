@@ -13,7 +13,13 @@
 			}
 		</style>
 	</head>
-
+  <configuration>
+    <system.webServer>
+        <staticContent>
+            <mimeMap fileExtension=".fbx" mimeType="application/octet-stream" />
+        </staticContent>
+    </system.webServer>
+</configuration>
   <body oncontextmenu="return false;">
     <div id="game">
       <canvas id="canvas"></canvas>
