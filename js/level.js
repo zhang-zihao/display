@@ -21,6 +21,7 @@ class Level {
     });
   }
   loadModels(){
+    //app.use('/models', THREE.static('models'));
     this.loadedModels = [];
     this.models = [
         {name: 'level', path: 'models/level.fbx'},
